@@ -21,3 +21,4 @@ Die Anforderungen des Auftraggebers verstehen und die Projektaufgabe klären.
 ### Ergebnis
 - Klare Liste der Projektanforderungen erstellt
 - IPERKA-Dokumentation begonnen  
+
