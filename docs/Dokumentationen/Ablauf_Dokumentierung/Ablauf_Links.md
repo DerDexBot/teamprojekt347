@@ -1,6 +1,6 @@
 # Rapportierung – Umgang mit Links in GitHub Markdown
 
-**Datum / Zeit:** 20.09.2025 – 20:10 bis 20:50  
+**Datum / Zeit:** 19.09.2025 – 20:10 bis 20:50  
 **Dauer:** ca. 40 Minuten  
 **Teilnehmer:** Rudy
 
