@@ -120,4 +120,4 @@ Projektziel wurde technisch erreicht:
 - GitHub-Repo dokumentiert die Arbeit.
 - Dokumentation war anfänglich mangelhaft, wurde aber nachgearbeitet.
 
-👉 Gesamt: Projekt erfolgreich, mit Verbesserungspotenzial in Planung/Dokumentation.
+Gesamt: Projekt erfolgreich, mit Verbesserungspotenzial in Planung/Dokumentation.
