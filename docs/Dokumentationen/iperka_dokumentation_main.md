@@ -1,14 +1,14 @@
 # IPERKA Gesamtdokumentation – Projekt Container-Services
 
 ## Dokumentation
-- [IPERKA Gesamtdokumentation](docs/iperka_dokumentation_main.md)
-- [Rapportierung Ajan](docs/Ablauf_Dokumentierung/rapportierung_ajan.md)
-- [Planung (Excel)](docs/Planung.xlsx)
+- [IPERKA Gesamtdokumentation](iperka_dokumentation_main.md)
+- [Rapportierung Ajan](Ablauf_Dokumentierung/rapportierung_ajan.md)
+- [Planung (Excel)](Planung.xlsx)
 
 ---
 
 ## 1. Informieren
-- [Arbeitsblatt 1.0 – Informieren](docs/Arbeits_Blätter/arbeitsblatt_1.0_informieren.md)
+- [Arbeitsblatt 1.0 – Informieren](Arbeits_Blätter/arbeitsblatt_1.0_informieren.md)
 
 **Ausgangslage:**  
 Ein KMU möchte firmeninterne Services in Containern bereitstellen.
@@ -30,7 +30,7 @@ Die zentrale Herausforderung liegt weniger in der Technik, sondern in der Planun
 ---
 
 ## 2. Planen
-- [Arbeitsblatt 2.0 – Planen](docs/Arbeits_Blätter/arbeitsblatt_2.0_planen.md)
+- [Arbeitsblatt 2.0 – Planen](Arbeits_Blätter/arbeitsblatt_2.0_planen.md)
 
 **Detailzeitplanung (Phasen im Block 1):**
 
@@ -49,7 +49,7 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 ---
 
 ## 3. Entscheiden
-- [Arbeitsblatt 3.0 – Entscheiden](docs/Arbeits_Blätter/arbeitsblatt_3.0_entscheiden.md)
+- [Arbeitsblatt 3.0 – Entscheiden](Arbeits_Blätter/arbeitsblatt_3.0_entscheiden.md)
 
 **Architekturentscheidungen:**
 - Alle Dienste in einem zentralen `docker-compose.yml`
@@ -73,8 +73,7 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 ---
 
 ## 4. Realisieren
-- [Arbeitsblatt 4.0 – Realisieren](docs/Arbeits_Blätter/arbeitsblatt_4.0_realisieren.md)
-
+- [Arbeitsblatt 4.0 – Realisieren](Arbeits_Blätter/arbeitsblatt_4.0_realisieren.md)
 **Umsetzung:**
 - Projektordner `projekt_m347` erstellt
 - `docker-compose.yml` geschrieben mit Services:
@@ -93,8 +92,7 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 ---
 
 ## 5. Kontrollieren
-- [Arbeitsblatt 5.0 – Kontrollieren](docs/Arbeits_Blätter/arbeitsblatt_5.0_kontrollieren.md)
-
+- [Arbeitsblatt 5.0 – Kontrollieren](Arbeits_Blätter/arbeitsblatt_5.0_kontrollieren.md)
 **Abgleich mit Planung:**
 - Technisch: alle Dienste laufen stabil und sind über Browser erreichbar
 - Zeit: mehr Aufwand beim Realisieren, weniger bei Dokumentation
@@ -108,7 +106,7 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 ---
 
 ## 6. Auswerten
-- [Arbeitsblatt 6.0 – Auswerten](docs/Arbeits_Blätter/arbeitsblatt_6.0_auswerten.md)
+- [Arbeitsblatt 5.0 – Kontrollieren](Arbeits_Blätter/arbeitsblatt_5.0_kontrollieren.md)
 
 **Lernerfahrungen:**
 - Technisch: Umgang mit docker-compose, Service-Vernetzung, Portainer, GitHub
@@ -122,4 +120,4 @@ Projektziel wurde technisch erreicht:
 - GitHub-Repo dokumentiert die Arbeit.
 - Dokumentation war anfänglich mangelhaft, wurde aber nachgearbeitet.
 
-👉 Gesamt: Projekt erfolgreich, mit Verbesserungspotenzial in Planung/Dokumentation.  
+👉 Gesamt: Projekt erfolgreich, mit Verbesserungspotenzial in Planung/Dokumentation.
