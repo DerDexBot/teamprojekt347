@@ -1,0 +1,107 @@
+version: "3.9"
+
+services:
+  mediawiki:
+    image: mediawiki:latest
+    container_name: mediawiki
+    restart: always
+    ports:
+      - "8085:80"
+    environment:
+      - MEDIAWIKI_DB_HOST=mediawiki_db
+      - MEDIAWIKI_DB_NAME=${MEDIAWIKI_DB_NAME}
+      - MEDIAWIKI_DB_USER=${MEDIAWIKI_DB_USER}
+      - MEDIAWIKI_DB_PASSWORD=${MEDIAWIKI_DB_PASSWORD}
+    volumes:
+      - ./volumes/mediawiki:/var/www/html
+    networks:
+      - internal
+
+  mediawiki_db:
+    image: mariadb:10.6
+    container_name: mediawiki_db
+    restart: always
+    environment:
+      - MYSQL_DATABASE=${MEDIAWIKI_DB_NAME}
+      - MYSQL_USER=${MEDIAWIKI_DB_USER}
+      - MYSQL_PASSWORD=${MEDIAWIKI_DB_PASSWORD}
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    volumes:
+      - ./volumes/mediawiki_db:/var/lib/mysql
+    networks:
+      - internal
+
+  nextcloud:
+    image: nextcloud:latest
+    container_name: nextcloud
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      - MYSQL_HOST=nextcloud_db
+      - MYSQL_DATABASE=${NEXTCLOUD_DB_NAME}
+      - MYSQL_USER=${NEXTCLOUD_DB_USER}
+      - MYSQL_PASSWORD=${NEXTCLOUD_DB_PASSWORD}
+    volumes:
+      - ./volumes/nextcloud:/var/www/html
+    networks:
+      - internal
+
+  nextcloud_db:
+    image: mariadb:10.6
+    container_name: nextcloud_db
+    restart: always
+    environment:
+      - MYSQL_DATABASE=${NEXTCLOUD_DB_NAME}
+      - MYSQL_USER=${NEXTCLOUD_DB_USER}
+      - MYSQL_PASSWORD=${NEXTCLOUD_DB_PASSWORD}
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    volumes:
+      - ./volumes/nextcloud_db:/var/lib/mysql
+    networks:
+      - internal
+
+  gogs:
+    image: gogs/gogs:latest
+    container_name: gogs
+    restart: always
+    ports:
+      - "3000:3000"
+      - "222:22"
+    volumes:
+      - ./volumes/gogs:/data
+    depends_on:
+      - gogs_db
+    networks:
+      - internal
+
+  gogs_db:
+    image: mariadb:10.6
+    container_name: gogs_db
+    restart: always
+    environment:
+      - MYSQL_DATABASE=${GOGS_DB_NAME}
+      - MYSQL_USER=${GOGS_DB_USER}
+      - MYSQL_PASSWORD=${GOGS_DB_PASSWORD}
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    volumes:
+      - ./volumes/gogs_db:/var/lib/mysql
+    networks:
+      - internal
+
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: always
+    ports:
+      - "9443:9443"
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./volumes/portainer:/data
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge

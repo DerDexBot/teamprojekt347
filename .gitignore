@@ -1,0 +1,17 @@
+# .env-Dateien mit Passwörtern ignorieren
+.env
+
+# Logs
+*.log
+
+# Docker Volumes / persistente Daten
+volumes/
+!volumes/.gitkeep   # Ausnahme: Platzhalter-Datei, damit Ordner sichtbar bleibt
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Editor-/IDE-Dateien
+.vscode/
+.idea/
