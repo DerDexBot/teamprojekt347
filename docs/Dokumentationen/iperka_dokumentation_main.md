@@ -106,7 +106,7 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 ---
 
 ## 6. Auswerten
-- [Arbeitsblatt 5.0 – Kontrollieren](Arbeits_Blätter/arbeitsblatt_5.0_kontrollieren.md)
+- [Arbeitsblatt 6.0 – Auswerten](Arbeits_Blätter/arbeitsblatt_6.0_auswerten.md)
 
 **Lernerfahrungen:**
 - Technisch: Umgang mit docker-compose, Service-Vernetzung, Portainer, GitHub
