@@ -4,7 +4,6 @@ services:
   mediawiki:
     image: mediawiki:latest
     container_name: mediawiki
-    restart: always
     ports:
       - "8085:80"
     environment:
@@ -20,7 +19,6 @@ services:
   mediawiki_db:
     image: mariadb:10.6
     container_name: mediawiki_db
-    restart: always
     environment:
       - MYSQL_DATABASE=${MEDIAWIKI_DB_NAME}
       - MYSQL_USER=${MEDIAWIKI_DB_USER}
@@ -34,7 +32,6 @@ services:
   nextcloud:
     image: nextcloud:latest
     container_name: nextcloud
-    restart: always
     ports:
       - "8080:80"
     environment:
@@ -50,7 +47,6 @@ services:
   nextcloud_db:
     image: mariadb:10.6
     container_name: nextcloud_db
-    restart: always
     environment:
       - MYSQL_DATABASE=${NEXTCLOUD_DB_NAME}
       - MYSQL_USER=${NEXTCLOUD_DB_USER}
@@ -64,7 +60,6 @@ services:
   gogs:
     image: gogs/gogs:latest
     container_name: gogs
-    restart: always
     ports:
       - "3000:3000"
       - "222:22"
@@ -78,7 +73,6 @@ services:
   gogs_db:
     image: mariadb:10.6
     container_name: gogs_db
-    restart: always
     environment:
       - MYSQL_DATABASE=${GOGS_DB_NAME}
       - MYSQL_USER=${GOGS_DB_USER}
@@ -92,7 +86,6 @@ services:
   portainer:
     image: portainer/portainer-ce:latest
     container_name: portainer
-    restart: always
     ports:
       - "9443:9443"
       - "9000:9000"
