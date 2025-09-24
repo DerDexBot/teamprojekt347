@@ -28,4 +28,4 @@
 ## Nächste Schritte
 - Ajan führt die Tests anhand der Blätter durch.
 - Ergebnisse (OK / Fehler) werden in den Testblättern direkt dokumentiert.
-- Zusammenfassung der Testergebnisse wird anschließend in die **Kontrollieren-Phase** eingetragen.  
+- Zusammenfassung der Testergebnisse wird anschliessend in die **Kontrollieren-Phase** eingetragen.  

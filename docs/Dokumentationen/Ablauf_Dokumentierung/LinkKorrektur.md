@@ -24,5 +24,5 @@
 ---
 
 ## Nächste Schritte
-- Weitere Rapportierungen regelmäßig ergänzen.
+- Weitere Rapportierungen regelmässig ergänzen.
 - Bei allen Änderungen an Pfaden oder Dateien → direkt ins Arbeitsjournal aufnehmen.  

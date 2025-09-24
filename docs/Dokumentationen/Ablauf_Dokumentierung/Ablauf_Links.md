@@ -13,14 +13,14 @@
     - Pfadstruktur genau geprüft und nachvollzogen.
     - Ordnername in `Arbeits_Blaetter` umbenannt, um GitHub-kompatible Links zu ermöglichen.
     - Alle Verlinkungen in `iperka_dokumentation_main.md` angepasst → relative Pfade korrekt gesetzt.
-    - Anschließend getestet: Alle Links funktionieren nun auf GitHub ohne 404-Fehler.
+    - Anschliessend getestet: Alle Links funktionieren nun auf GitHub ohne 404-Fehler.
 
 ---
 
 ## Ergebnis
 - Verständnis aufgebaut, wie **Markdown-Links** und **relative Pfade** in GitHub funktionieren.
 - Wichtig gelernt:
-    - Pfade müssen exakt der Ordnerstruktur entsprechen (inkl. Groß-/Kleinschreibung).
+    - Pfade müssen exakt der Ordnerstruktur entsprechen (inkl. Gross-/Kleinschreibung).
     - Sonderzeichen in Ordnernamen (z. B. Umlaute) können Probleme verursachen → besser vermeiden.
     - Änderungen an Pfaden immer auch in den Verlinkungen nachziehen.
 
