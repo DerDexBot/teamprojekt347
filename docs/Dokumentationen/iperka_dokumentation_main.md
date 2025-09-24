@@ -49,7 +49,7 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 ---
 
 ## 3. Entscheiden
-- [Arbeitsblatt 3.0 – Entscheiden](Dokumentationen/Arbeits_Blaetter/arbeitsblatt_3.0_entscheiden.md)
+- [Arbeitsblatt 3.0 – Entscheiden](../Dokumentationen/Arbeits_Blätter/arbeitsblatt_3.0_entscheiden.md)
 
 **Architekturentscheidungen:**
 - Alle Dienste in einem zentralen `docker-compose.yml`
@@ -59,13 +59,13 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 - `.env` zur Geheimhaltung von Passwörtern
 
 **Testkonzept (mit Verlinkung):**
-- [Testblatt 1 – MediaWiki](Dokumentationen/Arbeits_Blaetter/Testing/testblatt_mediawiki.md):  
+- [Testblatt 1 – MediaWiki](../Dokumentationen/Arbeits_Blätter/Testing/testblatt_gogs.md):  
   Seite anlegen, speichern und Persistenz prüfen.
-- [Testblatt 2 – Nextcloud](Dokumentationen/Arbeits_Blaetter/Testing/testblatt_nextcloud.md):  
+- [Testblatt 2 – Nextcloud](../Dokumentationen/Arbeits_Blätter/Testing/testblatt_nextcloud.md):  
   Datei hochladen, herunterladen und Persistenz prüfen.
-- [Testblatt 3 – Gogs](Dokumentationen/Arbeits_Blaetter/Testing/testblatt_gogs.md):  
+- [Testblatt 3 – Gogs](../Dokumentationen/Arbeits_Blätter/Testing/testblatt_gogs.md):  
   Repo erstellen, klonen, pushen/pullen testen.
-- [Testblatt 4 – Portainer](Dokumentationen/Arbeits_Blaetter/Testing/testblatt_portainer.md):  
+- [Testblatt 4 – Portainer](../Dokumentationen/Arbeits_Blätter/Testing/testblatt_portainer.md):  
   Containerverwaltung prüfen (Start/Stop über Web-GUI).
 
 **Sicherheitskonzept:**
