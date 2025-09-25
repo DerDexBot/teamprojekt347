@@ -1,4 +1,4 @@
-# Arbeitsblatt – Testing Gogs
+# Testplan – Testing Gogs
 
 **ID:** Test-3  
 **Service:** Gogs (Port 3000)  

@@ -1,4 +1,4 @@
-# Arbeitsblatt – Testing Nextcloud
+# Testplan – Nextcloud
 
 **ID:** Test-2  
 **Service:** Nextcloud (Port 8080)  
