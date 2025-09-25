@@ -59,13 +59,17 @@ Da Partner krank war → alle Schritte von Lernendem *Rudy* durchgeführt.
 - `.env` zur Geheimhaltung von Passwörtern
 
 **Testkonzept (mit Verlinkung):**
-- [Testblatt 1 – MediaWiki](../Test/Test_Pläne/Testplan_mediawiki.md):  
+
+  
+
+**Testpläne (mit Verlinkung):**
+- [Testplan 1 – MediaWiki](../Test/Test_Pläne/Testplan_mediawiki.md):  
   Seite anlegen, speichern und Persistenz prüfen.
-- [Testblatt 2 – Nextcloud](../Test/Test_Pläne/Testplan_gogs.md):  
+- [Testplan 2 – Nextcloud](../Test/Test_Pläne/Testplan_gogs.md):  
   Datei hochladen, herunterladen und Persistenz prüfen.
-- [Testblatt 3 – Gogs](../Test/Test_Pläne/Testplan_mediawiki.md):  
+- [Testplan 3 – Gogs](../Test/Test_Pläne/Testplan_mediawiki.md):  
   Repo erstellen, klonen, pushen/pullen testen.
-- [Testblatt 4 – Portainer](../Test/Test_Pläne/Testplan_portainer.md):  
+- [Testplan 4 – Portainer](../Test/Test_Pläne/Testplan_portainer.md):  
   Containerverwaltung prüfen (Start/Stop über Web-GUI).
 
 **Sicherheitskonzept:**
